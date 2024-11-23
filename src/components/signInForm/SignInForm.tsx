@@ -1,4 +1,4 @@
-import { FC, useState, useRef, MouseEvent } from "react";
+import { FC, useState, useRef } from "react";
 import { useNavigate} from 'react-router-dom';
 import { auth } from "../../fireBase/fireStore";
 import { signInWithEmailAndPassword } from "firebase/auth";
